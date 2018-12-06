@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+
+    #contenedor{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .tarjeta {
+      margin: 5px;
+      text-align: center;
+      line-height: 70px;
+      width: 150px;
+      height: 150px;
+      background: yellowgreen;
+      box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.38)
+    }
+  </style>
+</head>
+
+<body>
+  <button id="creartarjeta">
+    creartarjeta
+  </button>
+  <input type="text" id="textotarjeta"/>
+  <div id="contenedor">
+  </div>
+  <script>
+    var button = document.getElementById('creartarjeta');
+    var contenedor=document.getElementById("contenedor")
+    var entradaTexto=document.getElementById('textotarjeta')
+    button.addEventListener('click', function () {
+      console.log("------>click")
+      var tarjeta=document.createElement('div');
+      tarjeta.classList.add('tarjeta');
+      tarjeta.innerText=entradaTexto.value;
+      contenedor.appendChild(tarjeta);
+
+    })
+  </script>
+</body>
+
+</html>

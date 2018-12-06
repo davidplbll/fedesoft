@@ -1,0 +1,68 @@
+
+*{
+   outline: 1px solid red;
+   padding: 0px;
+}
+h1 {
+    font-family: 'Orkney';
+    font-weight: 300;
+}
+header {
+    background-color: #752993;
+    font-family: 'Orkney';
+    font-weight: 500;
+    height: 114px;
+    width: 100%;
+    padding: 0px;
+}
+.fondo-gris{
+    background-color: #AFAFAF;
+}
+.imagen{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 57px;
+}
+.imagenslide{
+    padding: 0px;
+    height: 100%;
+    width: 100%
+}
+nav>ul{
+    color: white;
+    position: relative;
+    float: right;
+    list-style-type: none;
+    top:-60px;
+}
+nav>ul>li {
+    margin: 20px;
+    text-align: center;
+    display: inline;
+}
+#slider{
+    margin: 0px;
+   padding: 0px;
+    height: 514px;
+}
+#calendario{
+    height: 550px;
+}
+#programas{
+    height: 514px;
+}
+#clientes-nacionales{
+    height: 564px;
+}
+#clientes-internacionales{
+    height: 546px;
+}
+#mensajes{
+    height: 393px;
+}
+#suscripcion{
+    height: 217px;
+}
+footer{
+    height: 488px;
+}

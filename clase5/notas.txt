@@ -1,0 +1,14 @@
+reak
+angular
+view.js
+aurelia
+comandos
+Micompon
+
+comandos ng
+  ng g c nombre --dry--run
+  ng g c lista --dry--run --no-spec --inline-template
+
+componentes
+  material design 
+  

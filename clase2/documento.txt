@@ -1,0 +1,46 @@
+progresive webs
+  aplicaciones ligeras
+  (descarga a medida que necesita)
+
+service worker
+  trabajo offline
+
+atajos
+  header>nav>ul>li*5
+  html:5
+  (crear a mismo nivel)
+  div>p+img+p+a
+  (CREAR PARRAFOS)
+  div>p*3>lorem
+  (poner class)
+  div>p*3.clase>lorem
+  (coloca id)
+  div#contenidp>p*3.clase>lorem
+  (darle atributos)
+  div#contenido[hidden="true" style="margin:0"]>p*3.clase>lorem2
+  (crear tabla)
+  table>(thead>tr>td*4)+tbody>tr>td*4
+
+legend
+  agrupar campos 
+
+--Herramientas
+    caniuse
+    polimer
+    webcomponets.org
+
+secciones
+  section
+  article
+  header
+  footer
+
+head
+  main||aside
+
+
+metadatos
+  meta http-equiv=
+
+margin: top right bottm left 
+

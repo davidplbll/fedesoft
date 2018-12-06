@@ -1,0 +1,23 @@
+lo que se vio
+  -input output
+  -binding=comunicacion entre vista y ts 
+  -angular js y angular 
+    angular 
+      bidireccional-cambia con el databinding
+
+
+
+ApiRest
+  permite consumo de api htttp
+  conecta con el servidor 
+
+ionic
+  framework
+  permite desplegar aplicaciones hibridas
+  plugins() con cordoba ->> permite manejar la maquina
+
+decoradores
+  --modo de añadir metadatos 
+  --clase especial de declaracion
+  --funcion extension para usar en otro lado 
+  --intansacion 

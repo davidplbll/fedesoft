@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+#fond{
+    width: 100%;
+    height: 100%;
+}
+#botones{
+    width: 100px;
+    height: 284px;
+    position: relative;
+    background-color: rgba(85, 86, 92, 0.712);
+    margin: 50px;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#principal{
+    width: 400px;
+    height:500px;
+    padding: 50px 0px;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 2px; 
+}
+#pestaña{
+    width: 682px;
+    height:500px;
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-left: 16px;
+    background-color: aliceblue;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#botones :hover {
+    transform: scale(1.15);
+    /* box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.37); */
+    transition: all 0.5s ease-in-out;
+}
+#redes :hover {
+    transform: scale(1.3);
+    /* box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.37); */
+    transition: all 0.5s ease-in-out;
+}
+.botonPrincipal{
+    border-radius: 100%;
+    width: 75px;
+    margin: 10px 12px;
+    height: 75px;
+    background-color: black;
+    position: relative;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: initButton;
+}
+
+#imgprincipal{
+    width: 400px;
+    height:500px;
+    position: absolute;
+    background-image: url("../imagenes/code.jpg");
+    padding: 0px;
+    border-radius: 20%;
+    visibility: visible;
+    z-index: 1;
+    border-color: black;
+    border-width: 2px;
+}
+#imgPerfil{
+    width: 150px;
+    height:150px;
+    position: relative;
+    margin-top: 216px;
+    margin-left: 125px;
+    padding: 0px;
+    border-radius: 100% ;
+    visibility: visible;
+    z-index: 2;
+    animation-duration: 3s;
+    animation-name: downimage;
+}
+#nombre{
+    font-size: 25px;
+    position: relative;
+    overflow: hidden;
+    color:black;
+    left: 50%;
+    width: 114px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    visibility: visible;
+    z-index: 3;
+    animation-duration: 10s;
+    animation-name: opacity;
+
+}
+.texto{
+    background: transparent important!;
+    white-space: nowrap; 
+    font-size: 15px;
+    position: absolute; 
+    /* overflow: hidden; */
+    margin-left: 159px;
+    visibility: visible; 
+    z-index: 3;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.link{
+    background-color: white;
+    width:  50px;
+    height:50px;
+    position: relative;
+    margin-top: 28px;
+    margin-left: 61px;
+    padding: 0px;
+    border-radius: 100% ;
+    visibility: visible;
+    z-index: 4;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: upimage;
+}
+#pestaña>h1{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    height: 50px;
+    margin-top: 15px;
+}
+.texto1{
+
+    height: 100px;
+    margin-top: -130px;
+}
+.texto1>p{
+    margin: 10px 20px;
+}
+#pestaña>lu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: -40px;
+}
+#pestaña>lu>li{
+    text-align: left;
+    width: 40%;
+    margin:0px 20px;
+    height: 5px;
+}
+.contactli{
+    text-align: left;
+    width: 40%;
+    margin: -130px 20px 0px 20px;  
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 35%;
+      opacity: 0.2;
+    }
+    to {
+      margin-left: 150px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes upimage {
+    from {
+      margin-top: 35%;
+      opacity: 0;
+    }
+    to {
+      margin-top: 7%;
+      opacity: 1;
+    }
+  }
+
+  @keyframes downimage {
+    from {
+      margin-top: 0%;
+    }
+  }
+
+  @keyframes initButton {
+    from {
+      border-radius: 10%;
+      opacity: 0.6;
+    }
+    to {
+        border-radius: 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes opacity {
+    from {
+      opacity: 0.0;
+    }
+  }
+

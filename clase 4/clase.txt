@@ -1,0 +1,34 @@
+electron
+  framework 
+  aplicaciones de escritorio de javascript
+  v8 motor de navegador de chrome
+  chromion
+
+cordoba 
+  movil
+
+.pop quitar ultimo elemento 
+.shift quitar primer elemento
+.splice (2,3) desde cual , cuantos
+
+dom 
+  document object model 
+  window
+    html
+      head
+      body
+por id
+  document.getElemntById("parrafo1")
+  $0.style.color=red
+  var p=document.getElemntById("parrafo1")
+  p.style.margin='10px'
+  p.innerText="nuevo texto"
+
+por class
+  document.getElemntsByClassName('centro')
+
+por arbol
+  document.querySlectorAll('div p')
+
+  transform:scale(1.2);
+  transition:all 3s ease-out || cubic ;

@@ -1,0 +1,23 @@
+para rutas principales for rrot 
+para hios 
+
+router
+YOSOFT/eventos-angular  
+routerLink ["/eventos,evento.id"]
+route-outelt
+
+creacion de servicios 
+  import @angular/core  Injectable
+
+  @Injectable
+  class {
+
+  }
+  
+  const eventos={
+
+  }
+
+  activate router service 
+
+  guath route
